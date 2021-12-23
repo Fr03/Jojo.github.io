@@ -1,0 +1,88 @@
+h1
+{
+  
+  text-align: center;
+}
+#titre{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  background-color: darkgoldenrod;
+}
+header
+{
+   grid-area: header;
+  text-align: center;
+  background-color:transparent;
+}
+ header p
+ { 
+   font-size: large;
+   background-color: crimson;
+ }
+ header ul
+ {
+   font-size: large;
+   background-color: crimson;
+ }
+main > p
+{
+  background-color: crimson;
+}
+
+.grid
+{
+ display: grid;
+ grid-template-areas: 
+ 'header header'
+ 'main main' 
+ 'footer footer';
+
+}
+
+.bouton
+{
+  grid-area: header;
+  display: inline-block;
+  background-color: red ;
+  border:5px solid black;
+  text-align:center;
+  color: black;
+  
+  align-items: center;
+
+}
+.bouton:hover{
+  background-color:blue; 
+}
+a:link
+{
+  color: black;
+}
+body
+{
+  
+  background-image: url("Images/AllJojo.jpg");
+  background-size:initial;
+}
+.footer
+{
+  grid-area: footer;
+}
+table
+{
+  border: 5px solid black;
+  padding: 70px;
+  display: inline-block;
+  background-color: darkgoldenrod;
+}
+
+td  p
+{
+  background-color: darkgoldenrod;
+}
+footer
+{
+  background-color: darkgoldenrod;
+}
